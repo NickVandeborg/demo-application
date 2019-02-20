@@ -35,7 +35,7 @@ async def test_one_node():
 
     assert len(data["connections"]) == 0
     assert data["id"]["site"] == x.site
-    assert data["id"]["tier"] == "123"
+    assert data["id"]["tier"] == x.tier
     assert data["id"]["name"] == x.name
 
     # test topo
